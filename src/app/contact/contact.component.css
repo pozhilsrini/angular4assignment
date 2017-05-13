@@ -1,0 +1,49 @@
+.table-fixed thead {
+  width: 100%;
+}
+.table-fixed tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+.header{
+  background: #743854;
+  COLOR:#FFFFFF;
+  text-align: center;
+  padding:20px 20px;
+  font-size: 20px;
+margin-bottom:20px;
+}
+h4{
+  float: left;
+}
+#search{
+  float: right;
+}
+.panel-heading {
+  
+    height: 57px !important;
+}
+table, th, td {
+   
+    border-collapse: collapse;
+    word-wrap:break-word;
+}
+th{
+  color:#ffffff;
+}
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #f0f0f0}
+tr{
+      width: 100%;
+    min-height: 36px;
+  
+  
+}

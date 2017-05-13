@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: 'Open Sans'
+}
+
+
+
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+#search[_ngcontent-c1] {
+    float: right;
+    width: 259px;
+    text-indent: 20px;
+    margin-top: 6px;
+}
+.add{
+   float: right;
+    margin-right: 13.5%;
+    margin-bottom: 30px;
+   background-color: #4CAF50;
+   color: #ffffff;
+    
+}
+.add :hover{
+    opacity:0.9;
+}
+.clearfix{
+    clear: both;
+}
+th{
+    background: #9E9E9E;
+}
+table .glyphicon{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.modal-dialog {
+    width: 600px;
+    margin: 8% auto;
+}
+.form-group {
+    margin-bottom: 15px;
+    height: 30px;
+}
+button{
+    outline:none;
+}
+.table-fixed[_ngcontent-c1] tbody[_ngcontent-c1] {
+    height: auto !important;
+    max-height: 600px;
+    overflow-y: scroll;
+    width: 100%;
+}
